@@ -12,6 +12,10 @@ h2 {
     font-size: 14pt;
 }
 
+a {
+    color: rgb(206, 242, 255);
+}
+
 body {
     font: normal 12pt Arial;
     background-color: rgb(64, 64, 64);
