@@ -3,10 +3,6 @@
     margin: 0;
 }
 
-a {
-    color: rgb(171, 216, 255);
-}
-
 label {
     font-size: 12pt;
     color: rgb(224, 224, 224);
@@ -24,14 +20,12 @@ body {
 
 header, footer {
     text-align: center;
-    margin: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin: 10px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    width: 500px;
     align-items: center;
+    justify-content: center;
+    gap: 5px;
 }
 
 option {
@@ -40,7 +34,7 @@ option {
 
 .machine {
     background-color: rgb(28, 28, 28);
-    width: 490px;
+    width: 470px;
     margin: auto;
     padding: 10px;
     border-radius: 8px;
@@ -118,6 +112,7 @@ option {
 #selectContents {
     width: 310px;
     border-radius: 5px;
+    background-color: rgb(44, 44, 44);
 }
 
 .Hours {
