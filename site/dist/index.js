@@ -110,7 +110,7 @@ function verifyOptionDifficult() {
 function verifyDifficultyColor(difficultyNumber) {
     switch (difficultyNumber) {
         case 1:
-            return "rgb(64, 64, 255)";
+            return "rgb(107, 107, 255)";
         case 2:
             return "rgb(64, 255, 64)";
         case 3:
