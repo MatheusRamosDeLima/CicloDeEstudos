@@ -35,12 +35,17 @@ function addContent() {
     inputContent.value = "";
 }
 function removeLastContent() {
-    divResult.innerHTML = "<h2>Resultado:</h2> <br>";
-    selectContents.remove(contents.length - 1);
-    contents.pop();
-    difficultiesNumber.pop();
-    difficultiesString.pop();
-    difficultiesColor.pop();
+    if (verifyListContents()) {
+        divResult.innerHTML = "<h2>Resultado:</h2> <br>";
+        selectContents.remove(contents.length - 1);
+        contents.pop();
+        difficultiesNumber.pop();
+        difficultiesString.pop();
+        difficultiesColor.pop();
+    }
+    else {
+        window.alert("Não há nenhum conteúdo na sua lista!");
+    }
 }
 function clearContents() {
     divResult.innerHTML = "<h2>Resultado:</h2> <br>";
