@@ -24,7 +24,7 @@ body {
 
 header, footer {
     text-align: center;
-    margin: 10px;
+    margin: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
