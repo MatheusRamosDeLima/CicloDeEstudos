@@ -48,12 +48,17 @@ function removeLastContent() {
     }
 }
 function clearContents() {
-    divResult.innerHTML = "<h2>Resultado:</h2> <br>";
-    selectContents.innerHTML = "";
-    contents = [];
-    difficultiesNumber = [];
-    difficultiesString = [];
-    difficultiesColor = [];
+    if (verifyListContents()) {
+        divResult.innerHTML = "<h2>Resultado:</h2> <br>";
+        selectContents.innerHTML = "";
+        contents = [];
+        difficultiesNumber = [];
+        difficultiesString = [];
+        difficultiesColor = [];
+    }
+    else {
+        window.alert("A sua lista já está limpa!");
+    }
 }
 function fSubmit() {
     if (verifyListContents()) {
