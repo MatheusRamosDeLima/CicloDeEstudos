@@ -89,6 +89,10 @@ function fSubmit():void {
     }
 }
 
+function clearResult():void {
+    divResult.innerHTML = "<h2>Resultado:</h2> <br>";
+}
+
 function verifyInputContent():boolean {
     return !!(inputContent.value.length);
 }

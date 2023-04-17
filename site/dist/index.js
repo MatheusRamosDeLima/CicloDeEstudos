@@ -78,6 +78,9 @@ function fSubmit() {
         window.alert("Não há nenhum conteúdo na sua lista!");
     }
 }
+function clearResult() {
+    divResult.innerHTML = "<h2>Resultado:</h2> <br>";
+}
 function verifyInputContent() {
     return !!(inputContent.value.length);
 }
